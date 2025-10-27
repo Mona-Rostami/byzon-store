@@ -11,7 +11,7 @@ import axios from "axios";
 import DataContext from "./context/DataContext";
 import Cartcontext from "./context/Cartcontext";
 import Cart from "./pages/Cart";
-import SingleProduct from "./pages/singleProduct";
+import SingleProduct from "./pages/SingleProduct";
 const App = () => {
   const [location, setLocation] = useState();
   const [hiden, setHiden] = useState(false);
