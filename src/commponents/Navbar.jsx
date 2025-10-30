@@ -50,7 +50,7 @@ const Navbar = ({ setDropdown, dropdown, hiden, setHiden, location }) => {
             <MdArrowDropDown onClick={ToggelDrowbedown} className="mt-1" />
             <div></div>
             {dropdown && (
-              <div className="z-10 absolute mt-14 bg-blue-300 max-w-[200px] max-h-[250px]">
+              <div className="z-10 absolute mt-14 bg-purple-400 max-w-[200px] max-h-[250px]">
                 <h2 className="flex justify-between text-4xl ml-3">
                   chang Location
                   <span className="m-2">
