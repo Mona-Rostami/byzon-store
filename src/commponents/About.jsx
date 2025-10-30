@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className=' w-full h-full  flex justify-center items-center flex-col'>
-     <div className='w-[60vw] rounded-lg bg-gray-200 my-40 p-5'>
-      <h1 className='text-red-700 font-bold text-2xl py-2 text-center'>About Byzon</h1>
+    <div className=' w-full h-full  md:flex justify-center items-center flex-col'>
+     <div className=' md:w-[60vw] rounded-lg bg-gray-200 md:my-40  p-5'>
+      <h1 className='text-red-700 font-bold text-2xl py-5 text-center'>About Byzon</h1>
       <p>Welcome to <span className=' text-red-600'>Byzon</span>your one-stop destinaton for latest and greatest in electronics from cutting-edge gadgets</p>
       <h2 className="text-red-700  py-2">Our Mission</h2>
       <p className=' py-2'> At Byzon our mission is to make innovative technology accessble to everyone we are passionate about connecting peaple with</p>
